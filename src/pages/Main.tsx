@@ -4,8 +4,6 @@ import Modal from 'react-modal';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { useRouter } from 'next/router'
 
-import MenuItem from '../components/MenuItem'
-
 const customStyles = {
   content: {
     top: '10%',

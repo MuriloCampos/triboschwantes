@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import tw from 'twin.macro'
 import { useRouter } from 'next/router'
-import Image from 'next/image'
 
 import { api } from '../services/api'
 
