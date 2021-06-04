@@ -56,7 +56,7 @@ const Main = () => {
         <div tw="border border-gray-300 rounded-sm bg-white">
           <img src="/tribopic.svg" tw="my-3" />
           <div tw="flex flex-col items-center px-4 text-white mb-3">
-            <button tw="bg-blue-700 mb-3 w-full p-2 rounded-sm font-semibold">Volume 1<br></br>A origem da tribo</button>
+            <a href="https://drive.google.com/uc?export=download&id=1Ku3LzsCN1BxwEaBASeGW6AXCTIBsDcZ-" tw="bg-blue-700 mb-3 w-full p-2 rounded-sm font-semibold text-center">Volume 1<br></br>A origem da tribo</a>
             <button tw="bg-blue-700 w-full p-2 rounded-sm font-semibold">Volume 2<br></br>A árvore genealógica da tribo no Brasil</button>
           </div>
         </div>
