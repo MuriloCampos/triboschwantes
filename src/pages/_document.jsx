@@ -1,7 +1,3 @@
-// This code prevents a Flash Of Unstyled Content (FOUC)
-// on load. Without it, the styles are only added once
-// react loads on the frontend
-
 import Document, { Html, Head, Main, NextScript } from 'next/Document'
 import { ServerStyleSheet } from 'styled-components'
 

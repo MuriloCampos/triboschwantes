@@ -5,7 +5,6 @@ import { useRouter } from 'next/router'
 import { api } from '../services/api'
 
 const styles = {
-  // Move long class sets out of jsx to keep it scannable
   container: () => [
     tw`flex flex-col items-center h-screen bg-white`,
   ],
@@ -38,12 +37,6 @@ const IndexPage = () => {
   }
 
   const handleSubmit = async () => {
-    // if (password === '12345') {
-    //   localStorage.setItem('@triboschwantes:logged', 'true')
-    //   router.push('/Main')
-    // } else {
-    //   setError(true)
-    // }
     api.post('/auth', { password }).then(() => {
       localStorage.setItem('@triboschwantes:logged', 'true')
       router.push('/Main')
