@@ -57,15 +57,15 @@ const Main = () => {
           <img src="/tribopic.svg" tw="my-3" />
           <div tw="flex flex-col items-center px-4 text-white mb-3">
             <a href="https://drive.google.com/uc?export=download&id=1Ku3LzsCN1BxwEaBASeGW6AXCTIBsDcZ-" tw="bg-blue-700 mb-3 w-full p-2 rounded-sm font-semibold text-center">Volume 1<br></br>A origem da tribo</a>
-            <button tw="bg-blue-700 w-full p-2 rounded-sm font-semibold">Volume 2<br></br>A árvore genealógica da tribo no Brasil</button>
+            <a href="https://drive.google.com/file/d/1lX7fVAW3oO-EjVA4d4PsXFUCvYP97G9I" tw="bg-blue-700 w-full p-2 rounded-sm font-semibold">Volume 2<br></br>A árvore genealógica da tribo no Brasil</a>
           </div>
         </div>
 
         <h1 id="Registros" tw="text-2xl font-bold my-4">Registros dos Schwantes no Brasil</h1>
 
         <div tw="border border-gray-300 rounded-sm bg-white text-white px-4 py-3">
-          <button tw="bg-blue-700 mb-3 w-full p-2 rounded-sm font-semibold">O diário do Augusto</button>
-          <button tw="bg-blue-700 w-full p-2 rounded-sm font-semibold">As memórias do Arlindo</button>
+          <a href="https://drive.google.com/file/d/1-T6db1CBdqLXWURhiO812CbXBR5NigEb" tw="bg-blue-700 mb-3 w-full p-2 rounded-sm font-semibold">O diário do Augusto</a>
+          <a href="https://drive.google.com/file/d/1hOSWyZbo1ckiOIAZIO583QCR97QrRIti" tw="bg-blue-700 w-full p-2 rounded-sm font-semibold">As memórias do Arlindo</a>
         </div>
       </div>
       <a href="//api.whatsapp.com/send?phone=5566999228007" tw="bg-white p-2 rounded-full fixed bottom-3 right-3 shadow-2xl"><img src="./whatsapp.png" tw="w-10 h-10" /></a>
